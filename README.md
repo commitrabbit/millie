@@ -7,23 +7,6 @@ millie/
 ├── HELP.md
 ├── README.md
 ├── build/
-│   ├── classes/java/main/com/millie/
-│   │   ├── MillieApplication.class
-│   │   ├── admin/settlement/
-│   │   ├── common/domain/
-│   │   ├── common/repository/
-│   │   └── seller/settlement/
-│   ├── generated/sources/
-│   │   ├── annotationProcessor/java/main/
-│   │   └── headers/java/main/
-│   ├── reports/problems/problems-report.html
-│   ├── resources/main/
-│   │   ├── application.yaml
-│   │   └── initailize.sql
-│   └── tmp/compileJava/
-│       ├── compileTransaction/backup-dir/
-│       ├── compileTransaction/stash-dir/
-│       └── previous-compilation-data.bin
 ├── build.gradle
 ├── gradle/wrapper/
 │   ├── gradle-wrapper.jar
@@ -31,7 +14,6 @@ millie/
 ├── gradlew
 ├── gradlew.bat
 ├── libs/
-│   └── mysql-connector-j-8.0.33.jar
 ├── settings.gradle
 ├── src/
 │   ├── main/
