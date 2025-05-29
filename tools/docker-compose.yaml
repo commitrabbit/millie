@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  mysql:
+    image: mysql:8.0.23
+    container_name: mysql-8.0.23
+    platform: linux/amd64
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+      - TZ=Asia/Seoul
+    volumes:
+      - $HOME/docker-data/mysql:/var/lib/mysql
